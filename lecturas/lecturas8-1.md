@@ -1,0 +1,14 @@
+
+# A User-Centric Evaluation Framework for Recommender Systems
+> Pu, P., Chen, L., & Hu, R. (2011). A user-centric evaluation framework for recommender systems. Proceedings of the Fifth ACM Conference on Recommender Systems - RecSys ’11, 157. https://doi.org/10.1145/2043932.2043962
+
+Los autores describen en detalle un cuestionario para evaluar la experiencia de los usuarios con un sistema recomendador. Para evaluar la utilidad del cuestionario, realizaron un estudio de usuarios en donde cada uno de ellos debía evaluar su experiencia con un recomendador escogido por ellos. Por ejemplo un usario podía buscar un ítem en amazon o un video en youtube y ambos responderían la misma encuesta. Aplican CFA (Confirmatory factor analysis) para definir los connstructos latentes y luego aplican SEM (structural equation models) para validar las relaciones entre los constructos latentes que plantean.
+
+Los autores mencionan casi de pasada que hay dos aspectos que eliminaron del constructo _recommendation quality_: y _context compatibily_ y _attractiveness_. El primer aspecto refleja que este cuestionario es necesario validarlo con otro tipo de recomendadores. Los usuarios con los que ellos testearon utilizaron, en su mayoría, sitios que se visitan desde un computador de escritorio, donde el contexto no juega un rol tan importante o relevante a la hora de recomendar. Por otro lado me llama la atención que no hayan querido medir _serenpidity_ pero que hayan agregado _attractiveness_, sobretodo porque muchos autores han estado estudiando el primer término y no parece complicado realizar un par de preguntas que lo distingan de de _novelty_.
+
+Debido a que los autores no agregan indicadores medidos directamente (ratings, tiempo, etc), no es posible evaluar si las preguntas de _recommendation quality_ correlacionan con las métricas que se han creado para estos aspectos. No me queda claro si esto se ha realizado desde que se publicó este paper, pero sería interesante evaluar si la métrica se correlaciona con el resultado de estas preguntas. De esta manera no sería necesario preguntarle al usuario en un _user study_ y se podrían ahorrar preguntas.
+
+Otro aspecto que me llama la atención es que cuando describen el trabajo relacionado dicen que el trabajo de Knijnenburg et al <a href="#note1red" id="note1"><sup>1</sup></a> no incluía un aspecto psicométrico en la evaluación(_"Moreover, the constructs have not been validated using psychometric methods"_). Esto es medio raro porque yo leí ese paper y si declaran usar CFA y SEM, y además realizan un estudio de usuario para obtener los constructos latentes. 
+
+
+<a id="note1" href="#note1ref"><sup>1</sup></a>Knijnenburg, B. P., Willemsen, M. C., Gantner, Z., Soncu, H., & Newell, C. (2012). Explaining the user experience of recommender systems. User Modeling and User-Adapted Interaction, 22(4–5), 441–504. https://doi.org/10.1007/s11257-011-9118-4
