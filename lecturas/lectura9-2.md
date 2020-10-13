@@ -1,0 +1,7 @@
+# Carousel Personalization in Music Streaming Apps with Contextual Bandits
+> Bendada, W., Salha, G., & Bontempelli, T. (2020). Carousel Personalization in Music Streaming Apps with Contextual Bandits. 420–425. https://doi.org/10.1145/3383313.3412217
+
+Este artículo presenta una evalución de distintos métodos de Multi-armed bandit para seleccionar los ítems que deben ir en la sección de recomendación de listas de reproducción de la aplicación [Deezer](https://www.deezer.com/es/). Estas recomendaciones tienen dos características: es una lista con un tamaño fijo (12 como máximo) y el feedback que dan los usuarios es implícito: se escuchó o no se escuchó la lista de reproducción.
+Los autores testean varios métodos de recomendación con bandits (10 en total) con distintos niveles de personalización y muestran la evaluación de laboratorio y un AB testing realizado en la plataforma.
+
+Un aspecto que creo que este artículo podría mejorar es el reporte de los resultados. Probaron muchos algoritmos y usaron colores para diferenciarlos en el gráfico pero el rango no hace posible diferenciarlos tan fácilmente. Habría sido mejor usar símbolos o líneas punteadas para diferenciar mejor algunos de ellos. En las figuras 3 y 4 los colores se repiten pero para otros algoritmos, lo que es super confuso. Si hubiesen usado otra marca visual para mostrar el tipo de algoritmo (forma o línea) habría sido más fácil entender los gráficos.
